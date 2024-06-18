@@ -1,0 +1,6 @@
+@OwinOauthAutentication_HostAddress = http://localhost:5052
+
+GET {{OwinOauthAutentication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

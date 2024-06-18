@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ndcjWCrNFuf/Kzu/GDDABrcGKKfziCTIW2Arp9siho4=",
+  "Source": "OwinOauthAutentication",
+  "BasePath": "_content/OwinOauthAutentication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
