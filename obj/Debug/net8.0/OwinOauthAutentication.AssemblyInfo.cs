@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OwinOauthAutentication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+368d8e5d9c3396e7fbe526b123325d88b402554e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+939c16606b2916f9e0291f7197d225aca35178ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("OwinOauthAutentication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OwinOauthAutentication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

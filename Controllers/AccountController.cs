@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OwinOauthAutentication.Models;
-using System.Web.Http;
+//using System.Web.Http;
 
 
 using OwinOauthAutentication.Models;
@@ -12,12 +12,17 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
+using Microsoft.AspNetCore.Mvc;
+using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace OwinOauthAutentication.Controllers
 {
+    [ApiController]
+    //[RoutePrefix("api/Account")]
+    //[RoutePrefix("api/Account")]
 
-    [RoutePrefix("api/Account")]
-    public class AccountController : ApiController
+    [Route("api/Account")]
+    public class AccountController :ApiController
     {
         private AuthRepository _repo = null;
 
@@ -29,7 +34,8 @@ namespace OwinOauthAutentication.Controllers
 
         // POST api/Account/Register
         [AllowAnonymous]
-        [System.Web.Http.Route("Register")]
+        //[System.Web.Http.Route("Register")]
+        [Microsoft.AspNetCore.Mvc.HttpPost("Register")]
         public async Task<IHttpActionResult> Register(UserModel userModel)
         {
             if (!ModelState.IsValid)

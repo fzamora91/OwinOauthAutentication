@@ -1,7 +1,7 @@
 //using client;
 using OwinOauthAutentication;
 
-/*public class Program
+public class Program
 {
     public static void Main(string[] args)
     {
@@ -14,23 +14,23 @@ using OwinOauthAutentication;
             {
                 webBuilder.UseStartup<Startup>();
             });
-}*/
+}
 
 
-var builder = WebApplication.CreateBuilder(args);
+//var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+//builder.Services.AddControllers();
 
-var app = builder.Build();
+//var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
-app.UseHttpsRedirection();
+/*app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+app.Run();*/

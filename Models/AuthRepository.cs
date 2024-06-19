@@ -17,7 +17,8 @@ namespace OwinOauthAutentication.Models
 
         public AuthRepository()
         {
-            _ctx = new AuthContext();
+            AuthContext.Create();
+            _ctx = new AuthContext("Data Source=monitoring.db");
             _userManager = new UserManager<IdentityUser>(new UserStore<IdentityUser>(_ctx));
         }
 
