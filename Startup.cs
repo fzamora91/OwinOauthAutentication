@@ -31,8 +31,8 @@ namespace OwinOauthAutentication
 
 
 
-            var builder = new DbConnectionStringBuilder();
-            builder.ConnectionString = " Data Source=monitoring.db ";
+            /*var builder = new DbConnectionStringBuilder();
+            builder.ConnectionString = " Data Source=monitoring.db ";*/
             /*var providerName = (string)builder["ProviderName"];
             builder.Remove("ProviderName");*/
 
@@ -49,7 +49,7 @@ namespace OwinOauthAutentication
 
 
 
-            DbProviderFactories.RegisterFactory("System.Data.SqlClient", typeof(System.Data.SqlClient.SqlClientFactory));
+            //DbProviderFactories.RegisterFactory("System.Data.SqlClient", typeof(System.Data.SqlClient.SqlClientFactory));
 
             //services.AddDbContext<OwinOauthAutentication.AuthContext>(dbContextOptionsBuilder => dbContextOptionsBuilder.UseSqlite("Data Source=myapp.db"));
 
